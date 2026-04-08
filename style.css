@@ -170,8 +170,6 @@ h1, h2, h3 {
 }
 
 .sidebar-card {
-  position: sticky;
-  top: 106px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
@@ -180,8 +178,14 @@ h1, h2, h3 {
   margin-bottom: 18px;
 }
 
+.sidebar-card:first-child {
+  position: sticky;
+  top: 106px;
+}
+
 .sidebar-card + .sidebar-card {
-  top: 410px;
+  position: static;
+  top: auto;
 }
 
 .sidebar-card h3 {
