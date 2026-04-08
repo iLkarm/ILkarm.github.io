@@ -69,11 +69,12 @@ h1, h2, h3 {
 }
 
 .header-inner {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
   gap: 24px;
   min-height: 76px;
+  padding: 12px 0;
 }
 
 .brand {
@@ -81,6 +82,7 @@ h1, h2, h3 {
   align-items: center;
   gap: 14px;
   min-width: 0;
+  flex-shrink: 0;
 }
 
 .brand-icon {
@@ -96,20 +98,29 @@ h1, h2, h3 {
   box-shadow: var(--shadow);
 }
 
+.brand-text {
+  min-width: 0;
+}
+
 .brand-title {
   font-size: 17px;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .brand-subtitle {
   font-size: 13px;
   color: #64748b;
+  white-space: nowrap;
 }
 
 .top-nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 6px;
+  min-width: 0;
 }
 
 .top-nav a {
@@ -117,6 +128,7 @@ h1, h2, h3 {
   border-radius: 14px;
   color: #475569;
   font-size: 14px;
+  white-space: nowrap;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -575,12 +587,11 @@ h1, h2, h3 {
   }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .header-inner {
-    display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
     gap: 12px;
-    padding: 12px 0;
   }
 
   .brand {
@@ -592,19 +603,7 @@ h1, h2, h3 {
   }
 
   .top-nav {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
-  }
-
-  .top-nav a {
-    padding: 8px 10px;
-    font-size: 13px;
-  }
-
-  .menu-toggle {
-    display: none;
   }
 }
 
@@ -617,5 +616,4 @@ h1, h2, h3 {
   .brand-title {
     font-size: 15px;
   }
-}
 }
