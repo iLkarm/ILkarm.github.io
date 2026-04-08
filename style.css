@@ -509,7 +509,7 @@ h1, h2, h3 {
   }
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1600px) {
   .top-nav {
     position: fixed;
     inset: 76px 16px auto 16px;
