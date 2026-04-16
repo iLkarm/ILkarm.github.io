@@ -378,7 +378,9 @@ h1, h2, h3 {
   padding: 28px;
 }
 
-
+.regional-intro {
+    margin-bottom: 24px;
+}
 
 .info-card.soft {
   background: var(--surface-soft);
