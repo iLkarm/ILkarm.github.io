@@ -629,3 +629,27 @@ h1, h2, h3 {
 #source-analysis > .info-card {
     margin-bottom: 24px;
 }
+
+#source-analysis h2 {
+    margin: 0 0 24px 0;
+}
+
+#source-analysis > .info-card {
+    margin-bottom: 24px;
+}
+
+#source-analysis .grid.two-columns {
+    margin-top: 0;
+}
+
+#territorial-analysis h2 {
+    margin: 0 0 24px 0;
+}
+
+#territorial-analysis > .info-card {
+    margin-bottom: 24px;
+}
+
+#territorial-analysis .grid.two-columns {
+    margin-top: 0;
+}
