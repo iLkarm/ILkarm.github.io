@@ -631,25 +631,17 @@ h1, h2, h3 {
 }
 
 #source-analysis h2 {
-    margin: 0 0 24px 0;
+    margin-bottom: 24px;
 }
 
 #source-analysis > .info-card {
     margin-bottom: 24px;
 }
 
-#source-analysis .grid.two-columns {
-    margin-top: 0;
+#territories h2 {
+    margin: 24px;
 }
 
-#territorial-analysis h2 {
-    margin: 0 0 24px 0;
-}
-
-#territorial-analysis > .info-card {
+#territories > .info-card {
     margin-bottom: 24px;
-}
-
-#territorial-analysis .grid.two-columns {
-    margin-top: 0;
 }
