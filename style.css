@@ -629,6 +629,9 @@ h1, h2, h3 {
 #source-analysis > .info-card {
     margin-bottom: 24px;
 }
+#source-analysis .grid.two-columns {
+    margin-top: 24px;
+}
 
 #territories h2 {
     margin-bottom: 24px;
