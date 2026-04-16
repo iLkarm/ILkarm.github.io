@@ -630,16 +630,8 @@ h1, h2, h3 {
     margin-bottom: 24px;
 }
 
-#source-analysis h2 {
-    margin-bottom: 24px;
-}
-
-#source-analysis > .info-card {
-    margin-bottom: 24px;
-}
-
 #territories h2 {
-    margin: 24px;
+    margin-bottom: 24px;
 }
 
 #territories > .info-card {
